@@ -6,3 +6,6 @@ big2.o:big2.c
 	gcc -c big2.c
 fact.o:fact.c
 	gcc -c fact.c
+
+clean:
+	rm -f *.o *.exe
